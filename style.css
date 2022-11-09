@@ -9,7 +9,14 @@ background-repeat:repeat ;
    border: solid 3px;
    padding: 3px;
 }
+.nav-links a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
 .nav-links{
+    list-style: none;
     text-decoration: none;
     color:rgba(0, 0, 255, 0.407);
     display: flex;
