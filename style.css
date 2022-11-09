@@ -1,0 +1,77 @@
+body{
+background-image: url(poisson2.jpg);
+background-repeat:repeat ;
+
+}
+.header{
+    color: darkblue;
+   justify-content: flex-end;
+   border: solid 3px;
+   padding: 3px;
+
+}
+
+.nav-links{
+    color:rgba(0, 0, 255, 0.407);
+   display: flex;
+   justify-content:space-around;
+   background-color: rgb(0, 128, 255);
+   font-size: 30px;
+   margin-top: 30px;
+}
+li{
+    margin: 10px;
+justify-content: center;
+}
+img{
+    border: solid 3px;
+    padding: 5px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;  
+}
+.second{
+   
+    display: flex;
+  margin: 20px;
+  flex-wrap: wrap ;
+justify-content: space-around;
+
+}
+.second li{
+    color: black;
+   border: solid 3px;
+   background-color: rgb(0, 128, 255);
+}
+.third{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.third li{
+    color: black;
+    border: solid 1px;
+    background-color: rgb(0, 128, 255);
+}
+.last{
+display: flex;
+justify-content: space-around;
+background-color: blue;
+color: black;
+}
+.third strong{
+    padding: 5px;
+    border: solid 3px;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(0, 128, 255);
+}
+.second strong{
+    padding: 5px;
+    border: solid 3px;
+    font-size: 30px;
+    color: black;
+    background-color: rgb(0, 128, 255);
+}
